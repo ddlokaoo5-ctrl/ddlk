@@ -1,0 +1,32 @@
+{
+  "name": "create-node",
+  "version": "1.0.0",
+  "description": "API Pix Mercado Pago para Telegram e ManyChat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddlokaoo5-ctrl/ddlk.git"
+  },
+  "keywords": [
+    "mercado-pago",
+    "pix",
+    "telegram",
+    "manychat",
+    "api"
+  ],
+  "author": "Jonas Gomes",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "mercadopago": "^2.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
